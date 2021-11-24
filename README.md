@@ -37,7 +37,7 @@ just put your gpu ids <br/>
 After which it should start to train <br/>
 
 for testing: <br/>
-python3 ./UniverseNet/tools/test.py ./UniverseNet/configs/universenet/universenet101_2008d_fp16_4x4_mstrain_480_960_20e_coco.py ./work_dir1/universnet/fold3/epoch_16.pth --eval mAP --file_name test_aslan.csv <br/>
+python3 ./UniverseNet/tools/test.py ./UniverseNet/configs/universenet/universenet101_2008d_fp16_4x4_mstrain_480_960_20e_coco.py ./work_dir1/universnet/fold3_again2/epoch_16.pth --eval mAP --file_name test_aslan.csv <br/>
 So the result will be saved in test_aslan.csv <br/>
 
 Note that I am reproducing my second best model(I chose 2 models, as it was required), which is also should give me 4th place. I am not reproducing my best model, since I noticed some errors on it and it requires more time to train.
