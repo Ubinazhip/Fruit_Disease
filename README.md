@@ -2,7 +2,7 @@
 clone this repository: <br/>
 git clone https://github.com/Ubinazhip/Fruit_Disease.git <br/>
 work inside this repository <br/>
-Move the folders of images to this direcory: Train_Images folder and Test_Images folder <br/>
+Move the folders of train and test images to this direcory: Train_Images folder and Test_Images folder <br/>
 <br/>
 Create a conda virtual environment and activate it
 conda create -n fruit python=3.8.5 -y
