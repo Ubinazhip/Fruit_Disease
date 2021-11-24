@@ -31,7 +31,6 @@ pip install pandas <br/>
 pip install tqdm <br/>
 pip install -U albumentations <br/>
 
-
 inside this directory run in terminal : </br>
 python3 ./UniverseNet/tools/train.py ./UniverseNet/configs/universenet/universenet101_2008d_fp16_4x4_mstrain_480_960_20e_coco.py --gpu-ids 1
 just put your gpu ids <br/> 
