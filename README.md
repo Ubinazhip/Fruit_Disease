@@ -22,7 +22,7 @@ git clone https://github.com/shinya7y/UniverseNet.git <br/>
 cd UniverseNet <br/>
 pip install -r requirements/build.txt <br/>
 pip install -v -e .  <br/>
-inside this UniverseNet folder, there is a folder ./configs delete it and move folder configs in this repository to ./UniverseNet. In another in is kind customized configs, so we need to replace original configs folder <br/>
+inside this UniverseNet folder, there is a folder ./configs delete it and move folder configs in this repository to ./UniverseNet. In another it is kind customized configs, so we need to replace original configs folder <br/>
 and the files test.py and custom_utils.py in this repository move to  UniverseNet/tools/  . Note that there is already test.py file in UniverseNet/tools/, so my test.py should replace it. <br>  
 
 move the model https://drive.google.com/drive/folders/1AbCL1P28_KeaRW777xt7ArbK4Pv2vPSK?usp=sharing to the folder ./load_models . Note that this file is easily available online 
