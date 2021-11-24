@@ -5,7 +5,7 @@ work inside this repository <br/>
 Move the folders of train and test images to this direcory: Train_Images folder and Test_Images folder <br/>
 <br/>
 Create a conda virtual environment and activate it <br/>
-conda create -n fruit python=3.8.5 -y
+conda create -n fruit python=3.8.5 -y <br/>
 conda activate fruit
 
 Install PyTorch and torchvision following the [https://pytorch.org/] <br/>
