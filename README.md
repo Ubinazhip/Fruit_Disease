@@ -25,7 +25,7 @@ pip install -v -e .  <br/>
 inside this UniverseNet folder, there is a folder ./configs delete it and move folder configs in this repository to ./UniverseNet. In other words, it is kind customized configs, so we need to replace original configs folder <br/>
 and the files test.py and custom_utils.py in this repository move to  UniverseNet/tools/  . Note that there is already test.py file in UniverseNet/tools/, so my test.py should replace it. <br>  
 
-move the model https://drive.google.com/drive/folders/1AbCL1P28_KeaRW777xt7ArbK4Pv2vPSK?usp=sharing to the folder ./load_models . Note that this file is easily available online 
+move the model https://drive.google.com/drive/folders/1AbCL1P28_KeaRW777xt7ArbK4Pv2vPSK?usp=sharing to the folder ./load_models , which inside this directory. Note that this file is easily available online 
 in https://github.com/shinya7y/UniverseNet/tree/master/configs/universenet - so we can use it as a pretrained model. <br/>
 pip install pandas <br/>
 pip install tqdm <br/>
